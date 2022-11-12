@@ -1,0 +1,35 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model BlogM
+<main>
+
+    <section class="container contact active" id="contact">
+        <div class="contact-container ">
+            <div class="main-title">
+                <h2>Blog <span></span><span class="bg-text">blog</span></h2>
+            </div>
+            <div class="contact-content-con">
+                <div class="left-contact">
+                    <h4>@Model.Header</h4>
+
+                    <img src="@Model.Image" style="width: 100%" />
+
+                    <p>
+                        @Model.Description
+                    </p>
+
+                  
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<div class="theme-btn">
+    <i class="fas fa-adjust"></i>
+</div>
